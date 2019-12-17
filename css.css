@@ -261,8 +261,13 @@ form {
 
 @media (max-width: 1028px) {
 
+    body {
+        margin: 0;
+
+    }
+
     .container {
-        padding: 0 4%;
+        padding: 0 2%;
     }
 
 
@@ -324,11 +329,16 @@ form {
         color: #66BFBF;
     }
 
+    #isi {
+        width: 100%;
+        margin: 0px;
+        padding: ;
+    }
 
     .grid-container {
-        width: 100%;
+
         background-color: #ecfcff;
-        display: inline-block;
+        display: block;
         grid-template-columns: auto auto auto;
         text-align: center;
         padding: 2% 0 10%;
@@ -337,8 +347,8 @@ form {
     .grid-item1 {
         font-family: "Solway";
         background-color: #ecfcff;
-        width: 100%;
-        padding: 10px 5%;
+
+        padding: 0;
         font-size: 1.5rem;
         text-align: center;
     }
@@ -346,12 +356,15 @@ form {
     .grid-item2 {
         font-family: "Solway";
         background-color: #ecfcff;
-        width: 100%;
-        font-size: 30px;
+
+        font-size: 2rem;
         text-align: center;
-        padding: 2%;
+        padding: 0;
     }
 
+    .h1-tampil {
+        display: inline-block;
+    }
 
 
 }
